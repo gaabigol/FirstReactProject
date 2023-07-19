@@ -78,7 +78,7 @@ function App() {
 
         {info && Object.keys(info).length > 0 && (
             <section className='result'>
-            <h2 className='result-title'>Compensa usar { info.title }</h2>
+            <h2 className='result-title'>{ info.title }</h2>
             <span>Álcool { info.alcool }</span>
             <span>Gasolina { info.gasolina }</span>
           </section>
